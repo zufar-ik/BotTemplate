@@ -1,0 +1,11 @@
+aiogram
+environs
+pandas
+asyncpg
+django
+psycopg2-binary
+django-jazzmin
+requests
+django-debug-toolbar
+openpyxl
+redis
