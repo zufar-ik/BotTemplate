@@ -3,7 +3,8 @@
 ----
 #### Инструкция по установке
 
-- Настраиваем файл ``.env`` по примеру ``.env_ex`` 
+- Настраиваем файл ``.env`` по примеру ``.env_ex``
+- Настраиваем PostgreSQL сервер
 - Переходим в папку ``backend``
 - Делаем настройки `python manage.py makemigrations main` & `python manage.py migrate` & `python manage.py createsuperuser` 
 - После запускаем сайт `python manage.py runserver`
