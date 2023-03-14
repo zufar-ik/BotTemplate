@@ -15,7 +15,7 @@ con = psycopg2.connect(
 cur = con.cursor()
 cur.execute("SELECT * from main_bottoken")
 token = cur.fetchall()
-BOT_TOKEN = token[0][1]  # Токен бота
+BOT_TOKEN = token[0][2]  # Токен бота
 
 cur = con.cursor()
 cur.execute("SELECT * from main_botadmin")
